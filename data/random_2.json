@@ -1,0 +1,50 @@
+[
+  {
+    "air": "sky",
+    "police": "officer",
+    "impossible": "possible",
+    "bet": "wager",
+    "army": "troops",
+    "dog": "puppy"
+  },
+  {
+    "air": "wind",
+    "police": "sheriff",
+    "impossible": "achievable",
+    "bet": "stake",
+    "army": "battalion",
+    "dog": "hound"
+  },
+  {
+    "air": "breeze",
+    "police": "detective",
+    "impossible": "doable",
+    "bet": "gamble",
+    "army": "forces",
+    "dog": "canine"
+  },
+  {
+    "air": "oxygen",
+    "police": "marshal",
+    "impossible": "feasible",
+    "bet": "risk",
+    "army": "infantry",
+    "dog": "wolf"
+  },
+  {
+    "air": "cloud",
+    "police": "sergeant",
+    "impossible": "realistic",
+    "bet": "lottery",
+    "army": "platoon",
+    "dog": "terrier"
+  },
+  {
+    "air": "atmosphere",
+    "police": "guardian",
+    "impossible": "attainable",
+    "bet": "fortune",
+    "army": "legion",
+    "dog": "shepherd"
+  }
+]
