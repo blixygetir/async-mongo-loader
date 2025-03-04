@@ -1,4 +1,4 @@
-# Async-Mongo-Loader
+# Async Mongo Loader
 A high-performance API built with Rust, leveraging Tokio's async runtime to efficiently upload multiple files concurrently into MongoDB. This API processes files in parallel, ensuring fast and scalable data ingestion
 
 # Features
@@ -23,7 +23,7 @@ Requirements
 
 ## Requirements
 
-### 1. Rust & Dependencies
+### 1. Rust Installation
 - Install the **latest Rust version** (currently `rustc 1.76.0` or later):
   ```sh
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
