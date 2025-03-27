@@ -7,8 +7,6 @@ A high-performance API built with Rust, leveraging Tokio's async runtime to effi
 3. Fast and scalable JSON processing  
 4. Error handling and logging  
 
-Requirements
-1
 
 ## Installation 
 1. Clone the repository:
