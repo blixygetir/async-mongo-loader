@@ -1,30 +1,17 @@
-Async Mongo Loader
-A high-performance API built with Rust, leveraging Tokio's async runtime to efficiently upload multiple files concurrently into MongoDB. This API processes files in parallel, ensuring fast and scalable data ingestion
++----------------------------+
+|      Async Mongo Loader    |
++----------------------------+
 
-Features
-1. Concurrent file ingestion using Tokio  
-2. Asynchronous MongoDB integration  
-3. Fast and scalable JSON processing  
-4. Error handling and logging  
+A high-performance API built with Rust, leveraging Tokio's async runtime 
+to efficiently upload multiple files concurrently into MongoDB. This API 
+processes files in parallel, ensuring fast and scalable data ingestion. 
+It supports concurrent file ingestion using Tokio, asynchronous MongoDB 
+integration, fast JSON processing, and includes error handling and logging.
 
-
-Installation 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/blixygetir/async-mongo-loader.git
-   cd async-mongo-loader
-2. Enter the connection string of your MongoDB database in the .env file.
-3.  Install the dependencies.
-      cargo build
-4. Run the API
-   cargo run <database_name> <collection_name>
-
-Requirements
-
-1. Rust Installation
-- Install the **latest Rust version** (currently `rustc 1.76.0` or later):
-  ```sh
-  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-2. MongoDB Setup 
-- Install MongoDB locally or use MongoDB Atlas (Sign up).
-- Ensure MongoDB is running and set the MONGO_URI in .env
+Usage
+1 Enter your MongoDB connection string in a `.env` file:
+    MONGO_URI=<your_mongodb_connection_string>
+2 Build the project:
+    + cargo build
+3 Run the API, specifying the database and collection:
+    + cargo run <database_name> <collection_name>
